@@ -18,6 +18,8 @@
                 Check Weather</button>
         </div>
     </form>
+    <span th:if="${data != null && data.name == 'error'}">
+  Invalid zip code. Weather data not found.</span>
     <hr>
     <div th:if="${data != null}">
     <h3>Forecast for <span th:text="${data.name}"></span></h3>
