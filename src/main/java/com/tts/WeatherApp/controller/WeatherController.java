@@ -2,6 +2,7 @@ package com.tts.WeatherApp.controller;
 
 import com.tts.WeatherApp.model.Request;
 import com.tts.WeatherApp.model.Response;
+import com.tts.WeatherApp.service.RequestService;
 import com.tts.WeatherApp.service.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

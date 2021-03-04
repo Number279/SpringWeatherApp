@@ -19,6 +19,24 @@
             </button>
         </div>
     </form>
+<!--    <p>Previous Searches</p>-->
+<!--    <div class="list-group" th:each="request:${requestList}">-->
+<!--        <div class="list-group-item list-group-item-action">-->
+<!--            <div class="d-flex w-100 justify-content-between">-->
+<!--                <span th:text="${request.date}"></span>-->
+<!--                <p th:utext="${request.zipCode}"></p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="card col-md-3 small-product-card" th:each="request:${requests}">-->
+<!--                <a th:href="@{/request/{id}(id=${request.getId()})}"></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
     <span th:if="${data != null && data.name == 'error'}">
   Invalid zip code. Weather data not found.</span>
     <hr>
